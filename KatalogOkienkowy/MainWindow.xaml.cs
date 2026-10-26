@@ -28,6 +28,7 @@ namespace KatalogOkienkowy
             produkty.Add(new Produkt("Zasilacz", 189.99, "Electronic", 5));
 
             LiczbaProuktuw.Text = $"Liczba produktuw: {produkty.Count()}";
+            WartoscMagazynu.Text = $"Wartość magazynu: {Produkt.ObliczWartoszMagazynu(produkty)} zł";
         }
     }
 }
