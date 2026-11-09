@@ -31,9 +31,9 @@ namespace KatalogOkienkowy
             WartoscMagazynu.Text = $"{Produkt.ObliczWartoszMagazynu(produkty)} zł";
 
             TextBlock dopisek = new TextBlock();
-            dopisek.Text = "Jakiś dopisek";
-            dopisek.FontSize = 14;
-            GluwnyStekPanel.Children.Add(dopisek);
+            //dopisek.Text = "Jakiś dopisek";
+            //dopisek.FontSize = 14;
+            //GluwnyStekPanel.Children.Add(dopisek);
         }
     }
 }
