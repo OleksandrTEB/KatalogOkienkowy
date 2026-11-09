@@ -27,8 +27,8 @@ namespace KatalogOkienkowy
             produkty.Add(new Produkt("Dysk SSD", 44.99, "Electronic", 1));
             produkty.Add(new Produkt("Zasilacz", 189.99, "Electronic", 5));
 
-            LiczbaProuktuw.Text = $"Liczba produktuw: {produkty.Count()}";
-            WartoscMagazynu.Text = $"Wartość magazynu: {Produkt.ObliczWartoszMagazynu(produkty)} zł";
+            LiczbaProuktuw.Text = $"{produkty.Count()}";
+            WartoscMagazynu.Text = $"{Produkt.ObliczWartoszMagazynu(produkty)} zł";
 
             TextBlock dopisek = new TextBlock();
             dopisek.Text = "Jakiś dopisek";
