@@ -30,6 +30,8 @@ namespace KatalogOkienkowy
             LiczbaProuktuw.Text = $"{produkty.Count()}";
             WartoscMagazynu.Text = $"{Produkt.ObliczWartoszMagazynu(produkty)} zł";
 
+
+
             TextBlock dopisek = new TextBlock();
             //dopisek.Text = "Jakiś dopisek";
             //dopisek.FontSize = 14;
